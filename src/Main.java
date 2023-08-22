@@ -84,7 +84,7 @@ public class Main {
             System.out.print("Enter salary: ");
             double salary = scanner.nextDouble();
 
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine();
 
             if (age < 0 || salary < 0) {
                 System.out.println("Age and salary must be non-negative values.");
